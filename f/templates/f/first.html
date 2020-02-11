@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/static.css' %}">
+    <title>Document</title>
+</head>
+
+<body
+    background='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTcEQEVw7t_eIbZwbFNqhQC334Qs---FOlzBM7dirl-HeiDli2&s'>
+    <div id="square">
+        <p class="h1">Сайт на тему "Flash разработчик"</p>
+        <p>Мы создали сайт, чтобы в кратце рассказать вам кто такой Flash разаботчик, что он должен знать и уметь.</p>
+        <p align='center'>Делали мы сейт в стиле "8 bit pattern"</p>
+        <p align='right'>Работу выполняли: Урядов Валерий, Петлин Антон, Чуприн Сергей.</p>
+        <p align='right'>Лицей N22 "Надежда Сибири"</p>
+    </div>
+    <div class="center">
+        <a href="{% url 'second_url' %}"><button class="btn">Далее ==></button></a>
+    </div>
+
+</body>
+
+</html>

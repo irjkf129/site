@@ -1,0 +1,41 @@
+#square{
+    width: 800px;
+    height: 100%;
+    margin: 7px;
+    padding: 10px;
+    border: 4px solid black;
+    background: #FFEF00;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.aqua{
+    background-color: aqua;
+}
+.btn {
+    display: inline-block;
+    background: #8C959D; 
+    background-color: greenyellow; 
+    text-decoration: none; 
+    border-radius: 3px; 
+    width: 100px;
+    height: 50px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    color: yellow;
+}
+.h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
